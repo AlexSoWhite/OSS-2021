@@ -1,0 +1,95 @@
+  431  cd
+  432  mkdir test
+  433  cd test
+  434  tocuh file
+  435  touch file
+  436  ls -la
+  437  man chmod
+  438  man chown
+  439  man chgrp
+  440  man umasl
+  441  man umask
+  442  man su
+  443  chmod ugo-w
+  444  chmod ugo-w file 
+  445  ls -la
+  446  chmod ugo-srwx file 
+  447  ls -la
+  448  "test" > file
+  449  cat file
+  450  ll
+  451  chmod u+w file
+  452  ll
+  453  "test" > file
+  454  cat file
+  455  chmod g+r file
+  456  ll
+  457  cat file
+  458  chmod u+r file
+  459  ll
+  460  cat file
+  461  ech "test" > file
+  462  echo "test" > file
+  463  cat file
+  464  mkdir dir
+  465  cd dir
+  466  touch new_file
+  467  echo "file 2" > new_file 
+  468  cd ..
+  469  ;s
+  470  ls
+  471  ls dir
+  472  ll
+  473  chmod 666 dir/new_file 
+  474  ll
+  475  cd dir/
+  476  ls
+  477  ll
+  478  cp new_file new_file1
+  479  ll
+  480  rm -r
+  481  cd ..
+  482  rm -rf dir
+  483  mkdir dir
+  484  touch dir/new_file
+  485  echo "file 2" > dir/new_file 
+  486  ls dir
+  487  chmod 666 dir
+  488  ls dir
+  489  cat dir/new_file 
+  490  rm dir/new_file 
+  491  chown nafanya root /dir
+  492  chown root dir
+  493  chgrp root dir
+  494  umask
+  495  man umask
+  496  umask 600
+  497  touch file1
+  498  ll
+  499  rm file1
+  500  ll
+  501  rm -f file1
+  502  ls
+  503  umask -p
+  504  umask -S
+  505  umask 006
+  506  umask -S
+  507  umask -p
+  508  umask u=rw,g=,o=
+  509  umask -S
+  510  touch file1
+  511  ll
+  512  umask u=rw,g=rw,o=rw
+  513  touch file2
+  514  ll
+  515  su
+  516  cat file
+  517  su
+  518  ls
+  519  ll
+  520  cat file
+  521  ls -lR
+  522  touch res_ls
+  523  ls -lR > res_ls
+  524  gedit res_ls 
+  525  history > lab2_history.txt

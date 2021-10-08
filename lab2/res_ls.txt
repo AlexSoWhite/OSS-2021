@@ -1,0 +1,10 @@
+.:
+total 4
+drw-rw-rw-. 2 nafanya nafanya 22 Oct  8 20:52 dir
+-rw-r-----. 1 root    nafanya  5 Oct  8 20:49 file
+-rw-------. 1 nafanya nafanya  0 Oct  8 20:59 file1
+-rw-rw-rw-. 1 nafanya nafanya  0 Oct  8 21:00 file2
+
+./dir:
+total 0
+-????????? ? ? ? ?            ? new_file
