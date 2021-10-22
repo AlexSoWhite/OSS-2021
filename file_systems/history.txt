@@ -1,0 +1,52 @@
+  648  ls -l /dev/sda
+  649  ls -l /dev/sda1
+  650  ls -l /dev/sda2
+  651  fdisk /dev/sda
+  652  sudo fdisk /dev/sda
+  653  cat /proc/diskstats 
+  654  cat /proc/devices
+  655  dd if=/dev/zero of ./fs.img bs=1M count=10
+  656  dd if=/dev/zero of=./fs.img bs=1M count=10
+  657  man losetup
+  658  losetup --find --show ./fs.img
+  659  find /dev -name "loop*"
+  660  losetup /dev/loop0 ./fs.img 
+  661  touch /dev/loop0
+  662  sudo touch /dev/loop0
+  663  losetup /dev/loop0 ./fs.img 
+  664  sudo losetup /dev/loop0 ./fs.img 
+  665  losetup --find --show ./fs.omg
+  666  losetup --find --show ./fs.img
+  667  losetup
+  668  losetup -h
+  669  losetup -a
+  670  losetup -f
+  671  sudo losetup -f
+  672  ls
+  673  sudo losetup --find --show ./fs.omg
+  674  sudo losetup --find --show ./fs.img
+  675  file ./fs.img 
+  676  rm ./fs.img 
+  677  dd if=/dev/zero of=./fs.img bs=1M count=10
+  678  sudo losetup --find --show ./fs.img
+  679  man modprobe
+  680  modprobe loop
+  681  sudo losetup --find --show ./fs.img
+  682  sudo modprobe loop
+  683  sudo losetup --find --show ./fs.img
+  684  losetup --list
+  685  sudo losetup --list
+  686  find /dev -name "loop*"
+  687  file /dev/loop0
+  688  losetup /dev/loop0 ./fs.img
+  689  sudo losetup /dev/loop0 ./fs.img
+  690  ping 8.8.8.8
+  691  history > history.txt
+  692  gedit history
+  693  gedit history.txt 
+  694  cd Desktop/bash/OSS-2021/file_systems/
+  695  gedit history.txt 
+  696  file history.txt 
+  697  rm history.txt 
+  698  ls
+  699  history > history.txt
