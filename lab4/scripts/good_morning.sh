@@ -2,4 +2,4 @@
 echo "Good morning!"
 date
 cal
-cat "/TODO"
+cat "/home/$USER/TODO"
